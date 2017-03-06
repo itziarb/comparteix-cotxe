@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>TITULO PROGRAMA</title>
+    <title>Comparteix Cotxe</title>
     <link rel="stylesheet" href="main.css">
 </head>
 
@@ -22,13 +22,13 @@
     </style>
     <h1><center> COMPARTEIX COTXE! </center></h1>
     <h2><CENTER>Web cutre per compartir cotxe :) </CENTER></h2>
-    <p> busques cotxe? vols compartir cotxe? apúntat!!</p>
-    <select>
+    <p> busques cotxe? vols compartir cotxe? apunta't!!</p>
+    <!-- <select>
         <option value="busco cotxe">busco cotxe</option>
         <option value="vull compartir cotxe">vull compartir cotxe</option>
         <option selected value="------">------</option>
         <option value="no sóc sostenible i viatjo sol">no sóc sostenible i viatjo sol</option>
-    </select>
+    </select> -->
     <p class="note">
         escollir horari provisional
     </p>
@@ -47,6 +47,7 @@
     </p>
     <p> poner gente de fuera de cataluña</p>
     <select multiple>
+    	<option selected disabled hidden style="display: none">Seleccionar Districte</option>
         <option value="Ciutat Vella">Ciutat Vella</option>
         <option value="Eixample">Eixample</option>
         <option value="Sants-Montjuïc">Sants-Montjuïc</option>
@@ -57,7 +58,6 @@
         <option value="Nou Barris">Nou Barris</option>
         <option value="Sant Andreu">Sant Andreu</option>
         <option value="Sant Martí">Sant Martí</option>
-        <option selected value="------">------</option>
         <option value="Badalona">Badalona</option>
         <option value="L'Hospitalet de Llobregat">L'hospitalet de Llobregat</option>
         <option value="Santa Coloma de Gramanet">Santa Coloma de Gramanet</option>
@@ -67,6 +67,7 @@
     <p> escull comarca</p>
     <label for="comarca"></label>
     <select id="comarca" name="comarca">
+    	<option selected disabled hidden style="display: none">Seleccionar Comarca</option>
         <option value="La Vall d’Aran">La Vall d’Aran</option>
         <option value="Alta Ribagorça">Alta Ribagorça</option>
         <option value="Pallars Sobirà">Pallars Sobirà</option>
@@ -108,7 +109,6 @@
         <option value="Terra Alta">Terra Alta</option>
         <option value="Ribera d’Ebre">Ribera d’Ebre</option>
         <option value="Priorat">Priorat</option>
-        <option selected value="------">------</option>
     </select>
     <br>
     <br>
