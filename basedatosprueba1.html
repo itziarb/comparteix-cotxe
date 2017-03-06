@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title> Entrada y salida de datos... </title>
     <script src="test.js"></script>
 </head>
+
 <body>
-    
-        <select name="compartirobuscar" id="compartirobuscar" onchange="checkValue(this.value)">
-            <option value= "1">busco cotxe</option>
-            <option value= "2">vull compartir cotxe</option>
-            <option selected value= "3">------</option>
-            <option value= "4">no sóc sostenible i viatjo sol</option>
-            
-            
-        </select>
-    
-       
-    
-  
+    <select name="compartirobuscar" id="compartirobuscar" onchange="checkValue(this.value)">
+        <option value="1">busco cotxe</option>
+        <option value="2">vull compartir cotxe</option>
+        <option selected value="3">------</option>
+        <option value="4">no sóc sostenible i viatjo sol</option>
+    </select>
     <form action="">
         <input type="submit" value="resposta" onclick="
             
@@ -28,23 +23,18 @@
             
                                                     
 
-        "/>
+        " />
     </form>
-    
-       <p>coses a afegir </p> 
-    
+    <p>coses a afegir </p>
     <form action="">
-        <input type="text" id="afegir"/>
-        
+        <input type="text" id="afegir" />
         <input type="submit" value="llest" onclick="
             var textodemas= document.getElementById('afegir').value;
             alert(textodemas);
                                                     
 
-        "/>
-        
-       
-        
+        " />
     </form>
 </body>
+
 </html>
